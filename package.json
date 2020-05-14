@@ -1,0 +1,25 @@
+{
+  "name": "@pixleight/tailwindcss-aspect-ratio",
+  "version": "1.0.0",
+  "description": "An aspect ratio plugin for Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixleight/tailwindcss-aspect-ratio.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "plugin",
+    "tailwindcss-plugin"
+  ],
+  "author": "Chris Violette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixleight/tailwindcss-aspect-ratio/issues"
+  },
+  "homepage": "https://github.com/pixleight/tailwindcss-aspect-ratio#readme"
+}
