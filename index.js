@@ -1,10 +1,6 @@
 const plugin = require('tailwindcss/plugin');
+const defaultTheme = require('./defaultTheme');
 const _ = require('lodash')
-
-var aspectRange = [];
-for (var i = 1; i <= 21; i++) {
-  aspectRange.push(i);
-}
 
 module.exports = plugin(function({ theme, variants, e, addUtilities }) {
   const aspectRatioBase = {
@@ -61,16 +57,7 @@ module.exports = plugin(function({ theme, variants, e, addUtilities }) {
   addUtilities(aspectRatioUtilities, variants('aspectRatio'));
 }, {
   theme: {
-    aspectRatio: {
-      w: aspectRange,
-      h: aspectRange,
-      '16/9': [16, 9],
-      '4/3': [4, 3],
-      '3/2': [3, 2],
-      '1/1': [1, 1],
-      'video': [16, 9],
-      'square': [1, 1],
-    },
+    aspectRatio: defaultTheme,
   },
   variants: {
     aspectRatio: ['responsive'],
