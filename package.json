@@ -23,9 +23,7 @@
   },
   "homepage": "https://github.com/pixleight/tailwindcss-aspect-ratio#readme",
   "devDependencies": {
-    "tailwindcss": "^1.2.0"
-  },
-  "dependencies": {
+    "tailwindcss": "^1.2.0",
     "lodash": "^4.17.15"
   }
 }
