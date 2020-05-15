@@ -1,6 +1,6 @@
 {
   "name": "@pixleight/tailwindcss-aspect-ratio",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "An aspect ratio plugin for Tailwind CSS",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/pixleight/tailwindcss-aspect-ratio#readme",
   "devDependencies": {
+    "@release-it/keep-a-changelog": "^1.0.0",
     "lodash": "^4.17.15",
     "release-it": "^13.6.0",
     "tailwindcss": "^1.2.0"
