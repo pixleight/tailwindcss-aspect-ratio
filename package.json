@@ -23,6 +23,9 @@
     "url": "https://github.com/pixleight/tailwindcss-aspect-ratio/issues"
   },
   "homepage": "https://github.com/pixleight/tailwindcss-aspect-ratio#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@release-it/keep-a-changelog": "^1.0.0",
     "auto-changelog": "^2.0.0",
